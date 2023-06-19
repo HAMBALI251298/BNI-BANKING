@@ -17,3 +17,15 @@ Lisensi dari aplikasi ini adalah GNU GPLv3 <http://www.gnu.org/licenses/gpl-3.0.
 * Menangkap SMS yang masuk dari BNI (3346), sehingga user tidak perlu membuka inbox lagi.
 * Kirim pulsa dengan nomor dari phonebook.
 * Ada ide/masukan yang lain? :D
+
+# Contact Me And SosialMedia
+
+• Linkedlin : (HAMBALI)
+
+• Facebook : (Hambali)
+
+• Instagram : (hambali6737)
+
+• telegram : (@hambali251298)
+
+• Telpon : (+6283128356342)
