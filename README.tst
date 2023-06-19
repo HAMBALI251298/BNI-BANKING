@@ -18,14 +18,9 @@ Lisensi dari aplikasi ini adalah GNU GPLv3 <http://www.gnu.org/licenses/gpl-3.0.
 * Kirim pulsa dengan nomor dari phonebook.
 * Ada ide/masukan yang lain? :D
 
-# Contact Me And SosialMedia
-
+📱Contact Me And SosialMedia
 • Linkedlin : (HAMBALI)
-
-• Facebook : (Hambali)
-
+• Facebook  : (Hambali)
 • Instagram : (hambali6737)
-
-• telegram : (@hambali251298)
-
-• Telpon : (+6283128356342)
+• telegram  : (@hambali251298)
+• Telpon    : (+6283128356342)
