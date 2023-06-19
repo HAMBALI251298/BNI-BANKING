@@ -1,5 +1,7 @@
 # BNI-BANKING
+
 Aplikasi Android untuk BNI SMS Banking
+http://back2arie.wordpress.com/2010/11/04/aplikasi-android-untuk-bni-sms-banking/
 
 Aplikasi ini digunakan untuk melakukan transaksi dengan BNI SMS Banking pada handheld berbasis sistem operasi Android.
 
