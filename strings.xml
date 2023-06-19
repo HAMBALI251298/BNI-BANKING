@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BNI SMS</string>
+    <string name="app_name_long">BNI SMS Banking</string>
+    <string name="app_title">BNI SMS</string>
+    <string name="app_version">v3.0</string>
+    <string name="app_author">Azhari Harahap</string>
+    <string name="author_email">azhari@harahap.us</string>
+    
+    <string name="no_BNI">3346</string>
+    <string name="delimiter">" "</string>
+    
+    <string name="notifikasi">Notifikasi</string>
+    <string name="loading">Silahkan Tunggu...</string>
+    <string name="mengirim_sms">Mengirim SMS</string>
+    <string name="sms_berhasil_terkirim">SMS Berhasil Terkirim</string>
+    <string name="sms_gagal_terkirim">SMS Gagal Terkirim</string>
+    <string name="isi_ulang_pulsa">"Isi ulang pulsa "</string>
+    <string name="simpan_password_sukses">Password berhasil disimpan</string>
+    
+    <string name="tombol_lanjut">Lanjutkan</string>
+    <string name="tombol_batal">Batal</string>
+    <string name="tombol_ok">OK</string>
+    <string name="konfirmasi">Konfirmasi</string>
+    
+    <string name="input_no_tagihan">Masukkan nomor tagihan</string>
+    <string name="input_no_ponsel">Masukkan nomor ponsel</string>
+    <string name="input_password">Masukkan password BNI SMS Banking Anda</string>
+    <string name="input_pass">Masukkan password baru</string>
+    <string name="ubah_pass">Ubah Password SMS BNI</string>
+    
+    <string name="title_transfer">Detail Transfer</string>
+    <string name="title_about">About</string>
+    <string name="title_pass_BNI">Password</string>
+    
+    <string name="konf_bank_tujuan">Bank tujuan:</string>
+    <string name="konf_no_rek_tujuan">Nomor rekening tujuan:</string>
+    <string name="konf_jumlah_trf">Jumlah transfer: </string>
+    <string name="konf_no_referensi">Nomor Referensi: </string>
+    <string name="konf_cek_saldo">Cek Saldo?</string>
+    <string name="konf_cek_history">Cek History Transaksi?</string>
+    <string name="konf_cek_tagihan">"Cek Tagihan "</string>
+    <string name="konf_no_tagihan">No Tagihan:</string>
+    <string name="konf_nominal_pembayaran">Nominal Pembayaran:</string>
+    <string name="konf_pembayaran">"Pembayaran "</string>
+    <string name="konf_isi_ulang_pulsa">Isi ulang pulsa:</string>
+    <string name="konf_no_ponsel_pulsa">Nomor ponsel:</string>
+    <string name="konf_nominal_pulsa">Nominal pulsa:</string>
+    
+    <string name="menu_cek_saldo">Cek Saldo</string>
+    <string name="menu_transfer">Transfer</string>
+    <string name="menu_transfer_antar_bank">Transfer Antar Bank</string>
+    <string name="menu_cek_tagihan">Cek Tagihan</string>
+    <string name="menu_pembayaran">Pembayaran</string>
+    <string name="menu_isi_ulang_pulsa">Isi Ulang Pulsa</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_kirim_sms">Mengirim SMS</string>
+    
+    <string-array name="menu_array">
+        <item>Cek Saldo</item>
+        <item>History Transaksi</item>
+        <item>Transfer</item>        
+        <item>Cek Tagihan</item>
+        <item>Pembayaran</item>
+        <item>Isi Ulang Pulsa</item>
+    </string-array>
+
+    <string-array name="menu_code">
+        <item>SAL</item>
+        <item>HST</item>
+        <item>TRF</item>        
+        <item>TAG</item>
+        <item>PAY</item>
+        <item>TOP</item>
+        <item>HELP</item>
+    </string-array>    
+    
+    <string-array name="menu_transfer">
+        <item>Ke Rekening BNI</item>
+        <item>Ke Rekening Bank Lain</item>
+    </string-array>    
+    
+    <string-array name="kode_transfer">
+        <item>Berita</item>
+        <item>Antarbank</item>
+    </string-array>    
+    
+    <string-array name="nama_bank">
+        <item>ANZ-Panin Bank</item>
+        <item>Bank Aceh</item>
+        <item>Bank Agroniaga</item>
+        <item>Bank Artos Indonesia</item>
+        <item>Bank Bengkulu</item>
+        <item>Bank BJB</item>
+        <item>Bank BNP</item>
+        <item>Bank BPD Kalsel</item>
+        <item>Bank BPD Kaltim</item>
+        <item>Bank Bukopin</item>
+        <item>Bank Capital</item>
+        <item>Bank Commonwealth</item>
+        <item>Bank DKI</item>
+        <item>Bank Ekonomi</item>
+        <item>Bank Ganesha</item>
+        <item>Bank ICB Bumiputera</item>
+        <item>Bank Ina Perdana</item>
+        <item>Bank Index</item>
+        <item>Bank Jabar Banten Syariah</item>
+        <item>Bank Jambi</item>
+        <item>Bank Jateng</item>
+        <item>Bank Jatim</item>
+        <item>Bank Kalbar</item>
+        <item>Bank Kesejahteraan</item>
+        <item>Bank Lampung</item>
+        <item>Bank Maluku</item>
+        <item>Bank Mayapada Internasional</item>
+        <item>Bank Mayora</item>
+        <item>Bank Mega</item>
+        <item>Bank Mestika</item>
+        <item>Bank Muamalat</item>
+        <item>Bank Nagari</item>
+        <item>Bank Nobu</item>
+        <item>Bank NTB</item>
+        <item>Bank NTT</item>
+        <item>Bank of India Indonesia</item>
+        <item>Bank Panin</item>
+        <item>Bank Papua</item>
+        <item>Bank Pundi</item>
+        <item>Bank QNB Kesawan</item>
+        <item>Bank Riau Kepri</item>
+        <item>Bank Saudara</item>
+        <item>Bank Sinarmas</item>
+        <item>Bank Sulselbar</item>
+        <item>Bank Sulteng</item>
+        <item>Bank Sultra</item>
+        <item>Bank Sulut</item>
+        <item>Bank Sumsel Babel</item>
+        <item>Bank Sumut</item>
+        <item>Bank Syariah Mandiri</item>
+        <item>Bank Syariah Mega Indonesia</item>
+        <item>BII Maybank</item>
+        <item>BNI 46</item>
+        <item>BPD Bali</item>
+        <item>BPD DIY</item>
+        <item>BPD Kalteng</item>
+        <item>BPR Karyajatnika Sadaya</item>
+        <item>BPR Semoga Jaya</item>
+        <item>BRI</item>
+        <item>BRI Syariah</item>
+        <item>BTN</item>
+        <item>BTPN</item>
+        <item>CIMB Niaga</item>
+        <item>Citibank</item>
+        <item>Danamon</item>
+        <item>DBS</item>
+        <item>HSBC</item>
+        <item>Mandiri</item>
+        <item>Mutiara Bank</item>
+        <item>OCBC NISP</item>
+        <item>Permata Bank</item>
+        <item>Rabobank</item>
+        <item>Standard Chartered Bank</item>
+        <item>UOB Buana</item>
+    </string-array>    
+    
+    <string-array name="kode_bank">
+        <item>061</item>
+        <item>116</item>
+        <item>494</item>
+        <item>542</item>
+        <item>133</item>
+        <item>110</item>
+        <item>145</item>
+        <item>122</item>
+        <item>124</item>
+        <item>441</item>
+        <item>054</item>
+        <item>950</item>
+        <item>111</item>
+        <item>087</item>
+        <item>161</item>
+        <item>485</item>
+        <item>513</item>
+        <item>555</item>
+        <item>425</item>
+        <item>115</item>
+        <item>113</item>
+        <item>114</item>
+        <item>123</item>
+        <item>535</item>
+        <item>121</item>
+        <item>131</item>
+        <item>097</item>
+        <item>553</item>
+        <item>426</item>
+        <item>151</item>
+        <item>147</item>
+        <item>118</item>
+        <item>503</item>
+        <item>128</item>
+        <item>130</item>
+        <item>146</item>
+        <item>019</item>
+        <item>132</item>
+        <item>558</item>
+        <item>167</item>
+        <item>119</item>
+        <item>212</item>
+        <item>153</item>
+        <item>126</item>
+        <item>134</item>
+        <item>135</item>
+        <item>127</item>
+        <item>120</item>
+        <item>117</item>
+        <item>451</item>
+        <item>506</item>
+        <item>016</item>
+        <item>009</item>
+        <item>129</item>
+        <item>112</item>
+        <item>125</item>
+        <item>558</item>
+        <item>558</item>
+        <item>002</item>
+        <item>422</item>
+        <item>200</item>
+        <item>213</item>
+        <item>022</item>
+        <item>031</item>
+        <item>011</item>
+        <item>046</item>
+        <item>041</item>
+        <item>008</item>
+        <item>095</item>
+        <item>028</item>
+        <item>013</item>
+        <item>089</item>
+        <item>050</item>
+        <item>023</item>
+    </string-array>    
+
+    <string-array name="menu_tagihan">
+    	<item>Telkom</item>
+    	<item>Speedy</item>
+    	<item>PLN</item>
+        <item>Kartu Kredit BNI</item>
+        <item>Kartu Halo</item>
+        <item>Kartu Matrix</item>
+        <item>Kartu StarOne</item>
+        <item>Kartu Xplor</item>
+    </string-array>    
+ 
+     <string-array name="kode_tagihan">
+    	<item>TELKOM</item>
+    	<item>TELKOM</item>
+    	<item>PLN</item>
+        <item>BNI</item>
+        <item>HALO</item>
+        <item>Matrix</item>
+        <item>StarOne</item>
+        <item>Xplor</item>
+    </string-array>   
+
+    <string-array name="menu_pembayaran">
+    	<item>Telkom</item>
+    	<item>Speedy</item>
+    	<item>PLN</item>
+    	<item>PDAM Bandung</item>
+        <item>Kartu Halo</item>
+        <item>Kartu Matrix</item>
+        <item>Kartu StarOne</item>
+        <item>Kartu Xplor</item>
+        <item>Tiket Garuda</item>
+        <item>Tiket Lion Air</item>
+        <item>Tiket Air Asia</item>
+        <item>Tiket Mandala</item>
+        <item>Kartu Kredit BNI</item>
+        <item>Kartu Kredit Standar Chartered Bank</item>
+        <item>Kartu Kredit HSBC</item>
+        <item>Kartu Kredit NIAGA</item>
+        <item>Kartu Kredit ABNAMRO</item>
+        <item>Kartu Kredit ANZ</item>
+        <item>Kartu Kredit GE</item>
+        <item>Kartu Kredit Mega</item>
+        <item>Kartu Kredit Citibank dan Ready Cash</item>
+    </string-array>    
+
+     <string-array name="kode_pembayaran">
+    	<item>TELKOM</item>
+    	<item>TELKOM</item>
+    	<item>PLN</item>
+    	<item>PAM BANDUNG</item>
+        <item>HALO</item>
+        <item>Matrix</item>
+        <item>StarOne</item>
+        <item>Xplor</item>
+        <item>GARUDA</item>
+        <item>LION</item>
+        <item>AIRASIA</item>
+        <item>MANDALA</item>
+        <item>BNI</item>
+		<item>SCB</item>
+		<item>HSBC</item>
+		<item>NIAGA</item>
+		<item>ABNAMRO</item>
+		<item>ANZ</item>
+		<item>GE</item>
+		<item>MEGA</item>
+		<item>CITIBANK</item>
+    </string-array>
+
+     <string-array name="perlu_amount">
+    	<item>no</item>
+    	<item>no</item>
+    	<item>no</item>
+    	<item>no</item>
+        <item>no</item>
+        <item>no</item>
+        <item>no</item>
+        <item>no</item>
+        <item>no</item>
+        <item>no</item>
+        <item>no</item>
+        <item>no</item>       
+        <item>yes</item>
+        <item>yes</item>
+        <item>yes</item>
+        <item>yes</item>
+        <item>yes</item>
+        <item>yes</item>
+        <item>yes</item>
+        <item>yes</item>
+        <item>yes</item>
+    </string-array>   
+ 
+    <string-array name="setting_array">
+        <item>Password SMS BNI</item>
+    </string-array>    
+
+    <string-array name="operator_pulsa">
+    	<item>SimPATI</item>
+    	<item>As</item>
+    	<item>Mentari</item>
+        <item>IM3</item>
+        <item>StarOne</item>
+        <item>Jempol</item>
+        <item>XL Voucher</item>
+        <item>XL Bebas Xtra</item>
+        <item>Flexi</item>
+        <item>Fren</item>
+        <item>Esia</item>
+        <item>3 (Three)</item>
+    </string-array>   
+
+    <string-array name="kode_operator_pulsa">
+    	<item></item>
+    	<item></item>
+    	<item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>XL</item>
+        <item>XTRA</item>
+        <item>FLEXI</item>
+        <item>FREN</item>
+        <item>ESIA</item>
+        <item>3</item>
+    </string-array>     
+
+
+    <!-- =========================================== -->
+    <!--  Nominal pulsa berdasarkan urutan Operator  -->
+    <!-- =========================================== -->
+
+    <string-array name="nominal_pulsa_0">
+    	<item>50 Ribu</item>
+    	<item>150 Ribu</item>
+    	<item>200 Ribu</item>
+        <item>300 Ribu</item>
+        <item>500 Ribu</item>
+        <item>1 Juta</item>
+    </string-array>    
+
+    <string-array name="nominal_pulsa_1">
+    	<item>25 Ribu</item>
+    	<item>50 Ribu</item>
+    	<item>150 Ribu</item>
+    	<item>200 Ribu</item>
+        <item>300 Ribu</item>
+        <item>500 Ribu</item>
+        <item>1 Juta</item>
+    </string-array>       
+
+    <string-array name="nominal_pulsa_2">
+    	<item>25 Ribu</item>
+    	<item>50 Ribu</item>
+    	<item>100 Ribu</item>
+    	<item>200 Ribu</item>
+        <item>300 Ribu</item>
+        <item>500 Ribu</item>
+    </string-array>  
+
+    <string-array name="nominal_pulsa_3">
+    	<item>25 Ribu</item>
+    	<item>50 Ribu</item>
+    	<item>100 Ribu</item>
+    	<item>200 Ribu</item>
+        <item>300 Ribu</item>
+        <item>500 Ribu</item>
+    </string-array>     
+
+    <string-array name="nominal_pulsa_4">
+    	<item>25 Ribu</item>
+    	<item>50 Ribu</item>
+    	<item>100 Ribu</item>
+    	<item>200 Ribu</item>
+        <item>300 Ribu</item>
+        <item>500 Ribu</item>
+    </string-array> 
+
+    <string-array name="nominal_pulsa_5">
+    	<item>25 Ribu</item>
+    	<item>75 Ribu</item>
+    	<item>100 Ribu</item>
+    	<item>150 Ribu</item>
+        <item>200 Ribu</item>
+        <item>300 Ribu</item>
+    </string-array>     
+                      
+    <string-array name="nominal_pulsa_6">
+    	<item>25 Ribu</item>
+    	<item>75 Ribu</item>
+    	<item>100 Ribu</item>
+    	<item>150 Ribu</item>
+        <item>200 Ribu</item>
+        <item>300 Ribu</item>
+    </string-array>      
+    
+    <string-array name="nominal_pulsa_7">
+    	<item>35 Ribu</item>
+    	<item>100 Ribu</item>
+    </string-array>      
+
+    <string-array name="nominal_pulsa_8">
+    	<item>50 Ribu</item>
+    	<item>100 Ribu</item>
+    	<item>150 Ribu</item>
+    	<item>200 Ribu</item>
+        <item>250 Ribu</item>
+        <item>350 Ribu</item>
+        <item>500 Ribu</item>
+    </string-array>
+
+    <string-array name="nominal_pulsa_9">
+    	<item>50 Ribu</item>
+    	<item>100 Ribu</item>
+    	<item>150 Ribu</item>
+    	<item>200 Ribu</item>
+        <item>250 Ribu</item>
+        <item>350 Ribu</item>
+        <item>500 Ribu</item>
+    </string-array>          
+
+    <string-array name="nominal_pulsa_10">
+    	<item>25 Ribu</item>
+    	<item>50 Ribu</item>
+    	<item>100 Ribu</item>
+    	<item>150 Ribu</item>
+    </string-array> 
+
+    <string-array name="nominal_pulsa_11">
+    	<item>30 Ribu</item>
+    	<item>50 Ribu</item>
+    	<item>100 Ribu</item>
+    	<item>150 Ribu</item>
+    	<item>300 Ribu</item>
+    	<item>500 Ribu</item>
+    </string-array>                
+</resources>
