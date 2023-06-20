@@ -31,19 +31,3 @@ Demi keamanan, password SMS BNI Anda tidak akan disimpan dalam aplikasi ini, kar
 • Instagram : (hambali6737)
 • telegram  : (@hambali251298)
 • Telpon    : (+6283128356342)
-
-Premium Partners
-
-• Vehikl
-• Tighten Co.
-• Kirschbaum Development Group
-• 64 Robots
-• Cubet Techno Labs
-• Cyber-Duck
-• Many
-• Webdock, Fast VPS Hosting
-• DevSquad
-• Curotec
-• OP.GG
-• WebReinvent
-•Lendio
