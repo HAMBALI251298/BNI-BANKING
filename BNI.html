@@ -1,0 +1,1523 @@
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+<head>
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="L001/consumer/images/favicon.ico" type="L001/consumer/images/x-icon" rel="shortcut icon">
+
+
+<!-- Portal Changes Start--------( Simant_Verma )  -->
+ 
+ 
+ 
+
+
+
+<!-- Portal Changes End--------( Simant_Verma )  -->
+<!-- Prafulla_Badguajr Ticket No : 494042 - extra css loading (new_style.css) is removed by commenting following line. -->
+
+ 
+<!-- Portal Changes Start--------( Simant_Verma )  -->
+
+
+
+<script type="text/javascript" src="scripts/common/NFEBALoginScript.js?moduleId=user,scriptsPath=scripts,isVdtMode=false,nodePath=,ipAddress=140.213.36.114,contextPath="></script>
+<script type="text/javascript">jQuery.noConflict();</script>
+	
+
+
+
+
+
+
+
+
+<!-- Portal Changes for 10.3 start by abhishek_agarwal -->
+
+<!--  Check whether request coming is for Portal or for Servlet  -->
+
+
+
+
+<script>
+setTreeFormt(1);
+</script>
+<!-- Changes For Portal Ends here  -->
+<!-- Portal Changes for 10.3 start by abhishek_agarwal -->
+
+
+<link
+	href=" L001/consumer/theme/new_style.css?mtime=0" rel="stylesheet" type="text/css"/>
+
+
+
+
+<!-- Portal Changes end -->
+
+
+
+
+
+
+
+	 
+
+
+<div id="flashcontent">
+</div>
+<script>  
+ jQuery(document).ready(function () {
+ jQuery('Action.GENERATE_REPORT').attr('value','');
+ });
+</script> 
+
+
+
+
+<title>BNI Internet Banking:Log in to Internet Banking</title>
+                    <script>var w=window;if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document;AKSB=w.AKSB||{},AKSB.q=AKSB.q||[],AKSB.mark=AKSB.mark||function(e,_){AKSB.q.push(["mark",e,_||(new Date).getTime()])},AKSB.measure=AKSB.measure||function(e,_,t){AKSB.q.push(["measure",e,_,t||(new Date).getTime()])},AKSB.done=AKSB.done||function(e){AKSB.q.push(["done",e])},AKSB.mark("firstbyte",(new Date).getTime()),AKSB.prof={custid:"354258",ustr:"",originlat:"0",clientrtt:"65",ghostip:"23.221.50.143",ipv6:false,pct:"10",clientip:"140.213.36.114",requestid:"16bc165b",region:"30210",protocol:"",blver:14,akM:"b",akN:"ae",akTT:"O",akTX:"1",akTI:"16bc165b",ai:"209571",ra:"false",pmgn:"",pmgi:"",pmp:"",qc:""},function(e){var _=d.createElement("script");_.async="async",_.src=e;var t=d.getElementsByTagName("script"),t=t[t.length-1];t.parentNode.insertBefore(_,t)}(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")}</script>
+                    </head>
+
+<script type="text/javascript">var langID="001"
+var locale="en_US"
+</script><object id='oCAPICOM' classid='clsid:A996E48C-D3DC-4244-89F7-AFA33EC60679'codebase='capicom.cab#version=2,0,0,0' width=0 height=0 ></object><body oncontextmenu="return false;" onload=""><form  name="AuthenticationFG" action ="AuthenticationController;jsessionid=0000uITQz_30ik0ADgqmOSAckjA:17gv0f8th?bwayparam=xO5xZUKXtoVd037N7TSlv1qFyvwIsqC525uX0qsj9q0%3D" method = "post"  autocomplete="off" ><script  type="text/javascript">function actionset(){if(document.AuthenticationFG.ACTIONSWITCH== "Y"){document.AuthenticationFG.ACTIONSWITCH= "N"}else{document.AuthenticationFG.action= "";document.AuthenticationFG.action= "";}}</script>
+
+
+
+
+
+
+	
+
+
+
+	<div class="row toprow">
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<script type="text/javascript">
+// Checks if the browser supports document.all
+linkArray = new Array();
+isIE = document.all;
+// Checks if browser used is Netscape Navigator
+isNN = !document.all&&document.getElementById;
+// Checks if browser used is Netscape Navigator 4
+isN4 = document.layers;
+
+ppX = 450;
+ppY = 250;
+
+editCtl = null;
+tmpEditCtl = null;
+
+rX = (Math.random() * 24) - 12;
+rY = (Math.random() * 36) - 18;
+
+/*** Declaring variable and separate flag values for call id: 128860 --Begin-- satyabrata ghosh --29/08/2008 ***/
+vIndex=0;
+vRandomAlp=0;
+vRandomNo=0;
+vRandomSpl=0;
+/*** Declaring variable and separate flag values for call id: 128860 --End-- satyabrata ghosh --29/08/2008 ***/
+
+isHot=false;
+showFirstTime=true;
+
+/*For enabling links*/
+isFirstTimeEnable = true;
+
+/* This function is used to enter alphabets, special characters and numbers*/
+insertData=function(ctl, value) {
+
+    ctl.value = ctl.value + value;
+};
+
+/* This function is used to enter password, change case and clear */     
+applyNumber=function(ctl) {
+    if(editCtl != null) {
+
+
+        if(ctl.name == 'pp_clear') {
+            editCtl.value = '';
+        }else if (ctl.name == 'pp_erase'){
+            editCtl.value= editCtl.value.substring(0,editCtl.value.length-1);
+        
+        
+        /*** Working of the Caps button for call id: 128860 --Begin--  satyabrata ghosh --29/08/2008 ***/
+        
+        }else if (ctl.name == 'pp_caps'){ 
+			var vCaps = document.getElementById('pp_caps').value;
+			for(var vIndex=0;vIndex<26;vIndex++){
+				var vAlp = document.getElementById('alp_'+vIndex).value;
+				// Changes to Uppercase
+				if(vAlp==vAlp.toLowerCase()){
+					var vTemp=vAlp.toUpperCase();
+					document.getElementById('alp_'+vIndex).value=vTemp;
+			document.getElementById('pp_caps').value=vCaps.toUpperCase();
+				// Changes to Lowercase
+				}else{		
+					var vTemp=vAlp.toLowerCase();
+					document.getElementById('alp_'+vIndex).value=vTemp;
+				}
+			document.getElementById('pp_caps').value=vCaps.toLowerCase();
+			}
+	
+	/*** Working of the Caps button for call id: 128860 --End--  satyabrata ghosh --29/08/2008 ***/
+		}else {
+		// Inserts alphabets, special characters and numbers on click
+
+            if(!editCtl.maxLength || editCtl.maxLength == 0 || editCtl.maxLength > editCtl.value.length) {
+
+                insertData(editCtl, ctl.value);
+            }
+            tmpEditCtl = editCtl;
+            if(editCtl.maxLength && editCtl.maxLength <= editCtl.value.length) {
+
+                setPinPadCtl(null);
+            }
+	    if(tmpEditCtl.focus){
+                setTimeout('tmpEditCtl.focus()', 1);
+	    }
+        }
+    }
+};
+isIE=document.all? 1:0
+/*Disable Actual Keyboard*/
+		
+		noKeyboard=function(e){
+			keyEntry = !isIE? e.which:event.keyCode;
+			if((keyEntry < '255') || (keyEntry > '0')){
+				return false;
+			}
+		};
+		
+		// Arrays containing alphabets, special characters and numbers in different languages 
+		var langBsdSmallAlp = {"001":"abcdefghijklmnopqrstuvwxyz","002":"abcdefghijklmnopqrstuvwxyz",
+		"003":"abcdefghijklmnopqrstuvwxyz","004":"abcdefghijklmnopqrstuvwxyz"};
+		var langBsdNum = {"001":"0123456789","002":"0123456789","003":"0123456789","004":"0123456789"};
+		var langBsdSplChars = {"001":".+-! ,@#$%&*()?=<>^_]{:\\|}`/[~\"\';","002":".+-! ,@#$%&*()?=<>^_]{:\\|}`/[~\"\';",
+		"003":".+-! ,@#$%&*()?=<>^_]{:\\|}`/[~\"\';","004":".+-! ,@#$%&*()?=<>^_]{:\\|}`/[~\"\';"};
+		
+		/* This is method creates separate arrays with alphabets, special characters and numbers based on lang id*/
+		getCharBasedOnLangId=function(arrayObj){
+			var chars = arrayObj[langID];
+			var langArr = new Array();
+			var character;
+			/* Added so that a virtual keypad will be displayed even if an entry for alphabets, special chars and nos
+				is not present for a particular lang id */
+			if(chars == null){
+				chars = arrayObj["001"];
+			} 
+			var charLen = chars.length;
+			for(i=0; i < charLen ; i++){
+				character = chars.substring(i,i+1);
+				if(character == "\""){
+					langArr[i] = "&quot";
+				}else{
+					langArr[i] = character;	
+				}
+			}		
+			return langArr;
+		};
+		
+		/*This function is used to paint the virtual keyboard on the page */
+		settingPinPadCtl=function(whatobject,whatimage,whatelement){
+			if(noAction){
+				return;
+			}
+			smallAlpArr = getCharBasedOnLangId(langBsdSmallAlp);
+			numArr = getCharBasedOnLangId(langBsdNum);
+			splCharArr = getCharBasedOnLangId(langBsdSplChars);
+
+/**** Depending on condition shuffle the keys on every click for call id: 128860 --Begin-- satyabrata ghosh --29/08/2008 ***/
+if(vRandomAlp==0){
+	// Shuffling the order of an array -AbdulMalik 6/27/2008
+	smallAlpArr.sort(function() {
+return 0.5 - Math.random()})
+}
+if(vRandomNo==0){
+	numArr.sort(function() {
+return 0.5 - Math.random()})
+}
+if(vRandomSpl==0){
+	splCharArr.sort(function() {
+return 0.5 - Math.random()})
+}
+/**** Depending on condition shuffle the keys on every click for call id: 128860 --End-- satyabrata ghosh --29/08/2008 ***/
+
+	var incr=0;
+	var incralp=0,incrno=0,incrspl=0;
+	var formname = '';
+	for(j=0;document.forms[j] != null;j++)
+	{
+		for(i=0; document.forms[j].elements[i] != null; i++)
+		{
+			if((document.forms[j].elements[i].name == whatelement))
+			{
+				formname = document.forms[j].name;
+			}
+		}
+	}
+	this.target=document.forms[formname].elements[whatelement];
+			
+			/**** Reformed the table and button name,separate table created for action buttons for call id: 128860 --Begin-- satyabrata ghosh --29/08/2008 ***/
+			/* Generates virtual keypad based on the number of special characters, numbers and alphabets : 
+			Added for internationalization */
+			var len = 15;
+			var numSplVal = 0;
+			var newRow;
+			var smallAlpArrLen = smallAlpArr.length;
+			var numArrLen = numArr.length;
+			var splCharArrLen = splCharArr.length;
+			/** This condition is used for Password,mPin and passcode**/
+			if (whatimage == 2){  
+				
+		var sHTML='<div id="close-keypad" class="ui-keyboard ui-widget-content ui-widget ui-corner-all ui-helper-clearfix ui-keyboard-has-focus" ><div id="keypadstyle"  class="ui-keyboard-keyset ui-keyboard-keyset-default">' 
+			+ '<p >'
+			+'<span class="ui-keyboard-preview-wrapper"><input class="vkeyboard ui-widget-content ui-corner-all ui-keyboard-preview" length="13" type=password name="buffer" id="input_buffer" value="" id=buffer onkeyup=checkPinPad(this) readonly></span>'
+			+'<span class="left CellBackGroundColourForKeypad"></span></p></div>';
+				
+				sHTML = sHTML+'<div id="keypadclear" class="ui-keyboard-keyset ui-keyboard-keyset-default" >';
+				while(incralp < smallAlpArrLen || incrno < numArr.length || incrspl < splCharArrLen){
+					// Creates a new row
+					sHTML = sHTML+'<p class="clearboth">';
+					newRow=true;
+					for (i=0; i < len; i++){
+						
+						// Adds style to td if its the first element of a new row.
+						if(i == 0){
+							sHTML = sHTML+'<span  class="height28forkeypad">';
+						} else{
+							sHTML = sHTML+'<span>';
+						}
+
+	
+
+						// Creates a button for each alphabet
+						if(incralp < smallAlpArrLen){
+							sHTML = sHTML+'<input class="ui-keyboard-button ui-keyboard-96 ui-state-default ui-corner-all" type="button" name="alp_'+incralp+'" id="alp_'+incralp+'" value="'+smallAlpArr[incralp++]+'" onclick="applyNumber(this)"/></span>';
+							
+						// Adds an empty cell to row if not a new row
+						/*	if(incralp == smallAlpArrLen ){
+								sHTML = sHTML+'<input class="ui-keyboard-button ui-keyboard-96 ui-state-default ui-corner-all" type="button" /></span>';
+								
+							// Adds an empty cell to row if not a new row
+							} */
+							newRow = false;
+						}
+
+
+						// Creates a button for each number (The last two columns are reserved for numbers )
+						if(incrno < numArrLen && newRow == true && i>=len-4){
+								sHTML = sHTML+'<input class="ui-keyboard-button ui-keyboard-96 ui-state-default ui-corner-all" type="button" name="pp_'+numSplVal+'" id="pp_'+numSplVal+'" value="'+numArr[incrno++]+'" onclick="applyNumber(this)"/></span>';
+								numSplVal++;
+					}
+
+
+				
+		
+						
+						// Creates a button for special characters
+						if(incrspl < splCharArrLen  && newRow == true && i<len-4){
+							sHTML = sHTML+'<input class="ui-keyboard-button ui-keyboard-96 ui-state-default ui-corner-all" type="button" name="pp_'+numSplVal+'" id="pp_'+numSplVal+'" value="'+splCharArr[incrspl++]+'" onclick="applyNumber(this)"/></span>';
+							numSplVal++;
+						}
+						
+						// Adds an empty cell to row if not a new row
+					/*	 if((incrspl >= splCharArrLen || incralp >= smallAlpArrLen&& i<len-4 )  ){
+						 	sHTML = sHTML+'</span>';	
+						} */
+						 
+					}
+					sHTML = sHTML+'</p>';
+				}
+			sHTML = sHTML+'</div>';
+			sHTML = sHTML+'<div id="listing" class="ui-keyboard-keyset ui-keyboard-keyset-default"><p class="listingcol">';
+			if(langID == '001'){
+				sHTML = sHTML +'<span class="otherbtns"><input class="ui-keyboard-button ui-keyboard-shift ui-keyboard-widekey ui-keyboard-actionkey ui-state-default ui-corner-all" type="button" id="pp_caps" name="pp_caps" value="Caps" alt="Caps" onclick="applyNumber(this)"/></span>';
+			}else{
+				sHTML = sHTML +'<span class="otherbtns"><input class="ui-keyboard-button ui-keyboard-shift ui-keyboard-widekey ui-keyboard-actionkey ui-state-default ui-corner-all" type="button" id="pp_caps" name="pp_caps" value="Caps" alt="Caps"/></span>';
+			}
+			sHTML = sHTML+'<span class="otherbtns"><input class="ui-keyboard-button ui-keyboard-shift ui-keyboard-widekey ui-keyboard-actionkey ui-state-default ui-corner-all" type="button" name="pp_erase" id="pp_erase" value="Backspace" onclick="applyNumber(this)"/></span>'
+				+'<span class="otherbtns"><input class="ui-keyboard-button ui-keyboard-cancel ui-keyboard-widekey ui-keyboard-actionkey ui-state-default ui-corner-all ui-state-active" type="button" name="pp_clear" id="pp_clear" value="Clear" onclick="applyNumber(this)"/></span>'
+				+'<span class="otherbtns"><input class="ui-keyboard-button ui-keyboard-cancel ui-keyboard-widekey ui-keyboard-actionkey ui-state-default ui-corner-all ui-state-active" type="button" name="done" id="done" value="OK" alt="OK" onclick="donePinPad(document.'+formname+'.buffer),setPinPadCtl(null),enableTextField('+whatelement+')"/></span>'
+				+'</p> <p></p></div> </div>';
+			}
+	
+/**** Reformed the div and button name,separate div created for action buttons for call id: 128860 --End-- satyabrata ghosh --29/08/2008 ***/
+document.getElementById("scriptdiv").innerHTML = sHTML;
+	
+	document.forms[formname].buffer.maxLength = 2147483647; 
+
+	setPinPadCtl(document.forms[formname].buffer);
+	elem = whatelement;
+};
+
+// This function is used to pop up and hide virtual keypad
+setPinPadCtl=function(ctl) {
+
+    
+    if(ctl && !editCtl && ctl.maxLength && ctl.maxLength <= ctl.value.length) {
+    
+        return;
+    }
+    
+    
+    editCtl = ctl;
+    var elements = document.forms[0].elements;
+    for(i = 0; i <= 77; i++) {
+
+        var el = elements['pp_' + i];
+        if(el != null) {
+
+            el.disabled = editCtl == null;
+        }
+    }
+    var el = elements['pp_clear'];
+	if(el != null) {
+
+        el.disabled = editCtl == null;
+    }
+	var el = elements['pp_erase'];
+	if(el != null) {
+
+        el.disabled = editCtl == null;
+    }
+	var el = elements['close'];
+	if(el != null) {
+
+        el.disabled = editCtl == null;
+    }
+	var el = elements['done'];
+    if(el != null) {
+
+        el.disabled = editCtl == null;
+    }
+	var el = elements['buffer'];
+    if(el != null) {
+
+        el.disabled = editCtl == null;
+    }
+	var el = elements['help'];
+    if(el != null) {
+
+        el.disabled = editCtl == null;
+    }
+
+    topLayer=isIE ? 'BODY' : 'HTML';
+    layer = isIE ? document.all.pp_div : document.getElementById ? document.getElementById('pp_div') : document.layers ? document.layers.pp_div : document.pp_div;
+
+	if(isIE && event || !isIE && ctl) {
+
+        hotLayer=isIE ? event.srcElement : ctl.target;
+        while (hotLayer != null && hotLayer.id != 'titleBar' && hotLayer.tagName != topLayer) {
+
+          hotLayer=isIE ? hotLayer.parentElement : hotLayer.parentNode;
+        }
+        if (hotLayer != null && hotLayer.id == 'titleBar' && ctl != null) {
+
+          offsetx=isIE ? event.clientX : ctl.clientX;
+          offsety=isIE ? event.clientY : ctl.clientY;
+          nowX=parseInt(layer.style.left);
+          nowY=parseInt(layer.style.top);
+          ddEnabled=true;
+          document.onmousemove=dd;
+        }
+    }
+    if(layer != null) {
+
+        if(editCtl != null) {
+
+            if (showFirstTime) {
+		// Called when pinpad is shown for the first time
+                showFirstTimePinPad(layer, ctl);
+                display();
+                showFirstTime=false;
+            } else {
+		//Called when pinpad is shown subsequent times
+
+				showPinPad(layer, ctl);
+				display();
+				
+            }
+        } else {
+
+			hidePinPad(layer);
+			display();
+        }
+    } else {
+
+        alert('Pin Pad not supported by your browser');
+    }
+};
+
+onloadNumber=function(ctl) {
+
+    ctl.disabled = editCtl == null;
+};
+
+checkPinPad=function(ctl) {
+
+    if(ctl.maxLength && ctl.maxLength != 0 && ctl.maxLength <= ctl.value.length) {
+
+        setPinPadCtl(null);
+    } else {
+
+        if(editCtl == null)
+            setPinPadCtl(this);
+    }
+};
+
+/* This function is used to show virtual keypad*/
+showPinPad=function(ctl, pctl) {
+
+
+	if (isIE || isNN) {
+
+        layer.style.visibility='visible';
+       
+    } else if (isN4) {
+
+        document.pp_div.visibility='show';
+        
+    }
+};
+/*To Load Pin pad first time*/
+showFirstTimePinPad=function(ctl, pctl) {
+
+
+    var pX = 500;
+    var pY = 250;
+
+    if(ppY) {
+
+        pY = ppY;
+    } else if(pctl.screenTop) {
+
+        pY = pctl.screenTop + 30;
+    } else if(pctl.screenY) {
+
+        pY = pctl.screenY + 30;
+    }
+    if(ppX) {
+
+        pX = ppX;
+    } else if(pctl.screenLeft) {
+
+        pX = pctl.screenLeft;
+    } else if(pctl.screenX) {
+
+        pX = pctl.screenX;
+    }
+    if(ctl.style) {
+
+        ctl.style.top = pY + rX;
+        ctl.style.left = pX + rY;
+    }
+    if (isIE || isNN) {
+
+		layer.style.visibility='visible';
+    } else if (isN4) {
+
+        document.pp_div.visibility='show';
+        
+	}
+	
+};
+/* This function is used to hide virtual keypad */
+hidePinPad=function(ctl){
+
+    if (isIE || isNN) {
+
+		layer.style.visibility='hidden';
+
+	} else if (isN4) {
+
+		document.pp_div.visibility='hide';
+    }
+elem = null;
+};
+
+ddInit=function(ctl){
+
+    var topLayer = isIE ? 'BODY' : 'HTML';
+
+	var layer = isIE ? document.all.pp_div : document.getElementById ? document.getElementById('pp_div') : document.layers ? document.layers.pp_div : document.pp_div;
+
+	var hotLayer = isIE ? event.srcElement : ctl.target;
+
+	if (layer != null) {
+
+        while (hotLayer.id != 'titleBar' && hotLayer.tagName != topLayer) {
+
+		  hotLayer=isIE ? hotLayer.parentElement : hotLayer.parentNode;
+		  if (hotLayer == null) return;
+        }
+        if (hotLayer.id == 'titleBar') {
+
+
+		  offsetx=isIE ? event.clientX : ctl.clientX;
+          offsety=isIE ? event.clientY : ctl.clientY;
+          nowX=parseInt(layer.style.left);
+          nowY=parseInt(layer.style.top);
+          ddEnabled=true;
+          document.onmousemove=dd;
+        }
+    }
+};
+
+dd=function(ctl){
+
+  if (!ddEnabled) return;
+  layer.style.left=isIE ? nowX+event.clientX-offsetx : nowX+ctl.clientX-offsetx+'px';
+  layer.style.top=isIE ? nowY+event.clientY-offsety : (nowY+ctl.clientY-offsety)+'px';
+  display();
+  return false;
+};
+
+		/* This function is used to deactivate parent window when virtual keypad pops up */ 
+		disbleTextField=function(whatelement){
+			// if virtual keypad is already open
+			var isVisible = document.getElementById('pp_div').style.visiblity = 'visible' ? true : false;
+			if(isVisible && elem == whatelement){
+				noAction = true;
+				return;
+			}else{
+				noAction = false;
+			}
+			/*Iterate through all the forms*/
+			var j=0;
+			var enab = true;
+			var disb = true;
+			while((document.forms[j] != null && (enab || disb))){
+					/*Iterate through all elements in a form*/
+					for(i=0; document.forms[j].elements[i] != null; i++){
+					/*IF you find an element with the name that was passed in*/
+				 		if(isVisible && (document.forms[j].elements[i].name == elem)){
+				 			document.forms[j].elements[i].disabled = false;
+				 			enab = false;
+				 		}else if((document.forms[j].elements[i].name == whatelement)){		
+							/*disable it and exit the loop*/
+							document.forms[j].elements[i].disabled=true;
+							disb = false;
+					 	}
+					 	if(!isVisible){
+					 		enab = false;
+					 	}
+					}
+				j++;
+			}
+			
+		};
+		
+		/* This function is used to change styles of the object passed to it*/
+		setStyle=function(obj,style,value){
+			obj.style[style]=value;
+		};
+
+	    /* This function is used to enable page*/
+		enableTextField=function(whatelement){
+			this.target.disabled=false;
+		};
+
+		getPixel=function(str) {
+			if (str == "") {
+				return "0";
+			} else {
+				return parseInt(str.substring(0, str.length-2),10);
+			}
+		};
+
+		// function to get the virtual keyboard displayed at random locations
+		randomDisplay=function(){
+			//var isFF = !document.all.pp_div.style.pixelTop;
+			var scrollTop = window.pageYOffset || window.document.documentElement.scrollTop || window.document.body.scrollTop;
+			var maxtop = scrollTop+320;
+			var maxleft = 320;
+			var pos = Math.random()*200;
+			var locationtop;
+			var locationleft;
+			// capturing the top and left positions of the keyboard
+			if (!isIE) {
+				locationtop = getPixel(document.getElementById('pp_div').style.top);
+			  	locationleft = getPixel(document.getElementById('pp_div').style.left);
+			} else {
+			  	locationtop = document.all.pp_div.style.pixelTop;
+			  	locationleft = document.all.pp_div.style.pixelLeft;
+			}
+			// generating new top positions using random number
+			if (pos <= 150)
+				locationtop = locationtop + pos;
+			else
+			  	locationtop = locationtop - pos;
+			// generating new left positions using random number
+			if (locationleft <= 200)
+			  	locationleft = locationleft + pos;
+			else
+			  	locationleft = locationleft - pos;
+			/* if the newlocationtop is negative the keyboard will go above the screen and if it is greater
+			   than 320 the keyboard will go below the screen.Hence it is set so as to be in between 1 and 320*/
+			if (locationtop < scrollTop) 
+			  	locationtop = scrollTop;
+			else if (locationtop > maxtop)
+			  	locationtop = maxtop;
+			/* if the newlocationleft is negative or greater than 320 the keyboard will not be visible in
+			the screen.Hence it is set so as to be in between 1 and 320*/
+			if (locationleft<0)
+			  	locationleft=1;
+			else if (locationleft >= maxleft)
+			  	locationleft=maxleft;
+			if (!isIE) {
+			  	document.getElementById('pp_div').style.top=locationtop+'px';
+			  	document.getElementById('pp_div').style.left=locationleft+'px';
+			} else {
+			  	document.all.pp_div.style.pixelTop=locationtop;
+			  	document.all.pp_div.style.pixelLeft=locationleft;
+			}
+			display();
+		};
+
+ddN4=function(whatLayer){
+
+  if (!isN4) return;
+  N4=eval(whatLayer);
+  N4.captureEvents(Event.MOUSEDOWN|Event.MOUSEUP);
+  N4.onmousedown=function(ctl){
+
+    N4.captureEvents(Event.MOUSEMOVE);
+    N4x=ctl.x;
+    N4y=ctl.y;
+  }
+  N4.onmousemove=function(ctl){
+
+    if (isHot){
+
+      N4.moveBy(ctl.x-N4x,ctl.y-N4y);
+      return false;
+    }
+  }
+  N4.onmouseup=function(){
+
+    N4.releaseEvents(Event.MOUSEMOVE);
+  }
+};
+
+/* This function is used to put the password entered on virtual keypad into the page on click of OK*/
+donePinPad=function(buffer){
+   this.target.value = buffer.value;
+	buffer.value = '';
+	
+};
+/* This function is used to open the help file for virtual keypad*/
+openPinPadHelp=function() {
+
+    var url = 'pinpad.html';
+    newwindow = window.open(url,'Security','height=500,width=700,scrollbars=yes,resizable=yes');
+    if (window.focus) {
+
+        newwindow.focus();
+    }
+};
+
+display=function()
+{
+	if(navigator.userAgent.toLowerCase().indexOf("msie")!=-1)
+	{
+	if(document.getElementById('iframetop')!=null)
+    {
+		//Fix for overlapping dropdowns
+		// show layer
+        var layerdiv = document.getElementById('pp_div');
+        layerdiv .style.display = '';
+        // show IFRAME
+        var iframe = document.getElementById('iframetop');
+        iframe.style.display = '';
+        iframe.style.width = layerdiv.offsetWidth;
+        iframe.style.height = layerdiv.offsetHeight;
+        iframe.style.left = layerdiv.offsetLeft;
+        iframe.style.top = layerdiv.offsetTop;
+        iframe.style.visibility=layerdiv.style.visibility;
+    }   
+    }
+};
+function getScrollXY() {
+  var scrOfX = 0, scrOfY = 0;
+  if( typeof( window.pageYOffset ) == 'number' ) {
+    //Netscape compliant
+    scrOfY = window.pageYOffset;
+    scrOfX = window.pageXOffset;
+  } else if( document.body && ( document.body.scrollLeft || document.body.scrollTop ) ) {
+    //DOM compliant
+    scrOfY = document.body.scrollTop;
+    scrOfX = document.body.scrollLeft;
+  } else if( document.documentElement && ( document.documentElement.scrollLeft || document.documentElement.scrollTop ) ) {
+    //IE6 standards compliant mode
+    scrOfY = document.documentElement.scrollTop;
+    scrOfX = document.documentElement.scrollLeft;
+  }
+  return [ scrOfX, scrOfY ];
+}
+</script>
+
+
+<script  type="text/javascript">
+document.onmousedown=ddInit;
+document.onmouseup=Function("ddEnabled=false");
+</script>
+<iframe id="iframetop" scrolling="no" frameborder="0"> </iframe>
+	<div id="pp_div" valign="right" class="keypaddiv">
+<div id="scriptdiv"></div>
+</div>
+
+<script  type="text/javascript">ppX=100;ppY=100;setTimeout('setPinPadCtl(null)',1);</script>
+
+
+   
+ 
+ 
+
+<title>BNI Login</title>
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>BNI Login</title>
+
+ <script>  
+jQuery(document).ready(function () {
+document.getElementById("AuthenticationFG.USER_PRINCIPAL").focus();		
+});
+</script> 
+
+ <script src='scripts/PageScript.js' type='text/javascript'></script>
+
+ <script>
+jQuery(document).ready(function() {
+
+   jQuery("input").bind("keydown", function(event) {
+      // track enter key
+      var keycode = (event.keyCode ? event.keyCode : (event.which ? event.which : event.charCode));
+      if (keycode == 13) { // keycode for enter key
+         // force the 'Enter Key' to implicitly click the Update button
+         document.getElementById('VALIDATE_CREDENTIALS').click();
+         return false;
+      } else  {
+         return true;
+      }   	
+   }); // end of function
+
+});
+</script> 
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="header1">
+	<div id="wrap">
+    	<div id="logo2">
+
+        <!-- 	<img src="L001/consumer/images/logo.png">  -->
+    	BNI INTERNET BANKING
+
+</div>
+        <div id="ib">
+        <!--  	<img src="L001/consumer/images/ib.png"> -->
+        	<img src="L001/consumer/images/logo.png">
+        </div>
+    </div>
+</div>	
+<div style="height: 28px; clear: both;" ></div>
+								
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+
+  <div  class="width100percent_loginbg_bni1" id="Pageheader16">
+
+    
+
+      
+
+        <div  class="width70left_WOBGcolor" id="Pageheader16.Rowset1">
+
+          
+
+            
+
+              
+
+            
+
+          <p  id="Pageheader16.Ra1">
+<span  id="Pageheader16.Ra1.C1"><span class="headerstyle_bni" id="Caption16435614">Log in to Internet Banking</span></span></p>
+
+
+        </div>
+
+
+        <div  class="width30right_WOBGcolor" id="Pageheader16.Rowset2">
+
+          
+
+            
+
+
+            
+
+          
+
+        </div>
+
+
+      
+
+    
+
+  </div>
+
+
+  <div  class="width100percent_loginbg_bni" id="HorizontalLoginSection17">
+
+    
+
+      
+
+        <div  class="width70left" id="HorizontalLoginSection17.Rowset1">
+
+          
+
+            
+
+              
+
+            
+
+            
+
+              
+
+            
+
+          <p  id="HorizontalLoginSection17.Ra1"class="loginsection_bni">
+<span  id="HorizontalLoginSection17.Ra1.C1" class="width50percent_left_bni"><label for="AuthenticationFG.USER_PRINCIPAL" id = "user_id"title = "User ID :" class = "simpletext_bni" >User ID :</label></span><span  id="HorizontalLoginSection17.Ra1.C2" class="width50percent_right_bni"><label for="AuthenticationFG.PREFERRED_LANGUAGE" id = "preferred_language"title = "Preferred Language :" class = "simpletext_bni_right" >Preferred Language:</label></span></p>
+
+
+          
+
+            
+
+              
+
+            
+
+            
+
+              
+
+            
+
+          <p  id="HorizontalLoginSection17.Ra2"class="loginsection_bni">
+<span  id="HorizontalLoginSection17.Ra2.C1" class="width50percent_left_bni"><span class="labelColumn"><input type="text" name = "AuthenticationFG.USER_PRINCIPAL" title = "User ID" size = "28" tabindex = "1"" class = "txtfield_bni type_UserPrincipal" data-febaType = "UserPrincipal"" maxLength = "65" id="AuthenticationFG.USER_PRINCIPAL" value="" title = "User ID"/></span></span><span  id="HorizontalLoginSection17.Ra2.C2" class="width50percent_right_bni"><span class="labelColumn_combo"><span class="labelColumn_combo_brdr"> <select  name= "AuthenticationFG.PREFERRED_LANGUAGE" class = "dropdownexpandalbe" tabindex = "-1" id="AuthenticationFG.PREFERRED_LANGUAGE" title = "Preferred Language :"> <option value="PREF">Preferred Language</option> <option value="001">English</option> <option value="002">Indonesia</option></select></span></span></span></p>
+
+
+          
+
+            
+
+              
+
+            
+
+            
+
+              
+
+            
+
+          <p  id="HorizontalLoginSection17.Ra3"class="loginsection_bni">
+<span  id="HorizontalLoginSection17.Ra3.C1" class="width50percent_left_bni"><label for="AuthenticationFG.ACCESS_CODE" id = "LabelForControl11439107"title = "Password:" class = "simpletext_bni" >Password:</label></span><span  id="HorizontalLoginSection17.Ra3.C2" class="width50percent_right_bni"><label for="AuthenticationFG.MENU_ID" id = "DefaultLoadingPage:"title = "Default Login Page:" class = "simpletext_bni_right" >Default Login Page:</label></span></p>
+
+
+          
+
+            
+
+              
+
+                
+
+                                
+
+              
+
+            
+
+            
+
+              
+
+            
+
+          <p  id="HorizontalLoginSection17.Ra4"class="loginsection_bni">
+<span  id="HorizontalLoginSection17.Ra4.C1" class="width50percent_left_bni"><input type="password" name="AuthenticationFG.ACCESS_CODE" size="28" class="txtfield_bni" id="AuthenticationFG.ACCESS_CODE" title = "Password"" maxLength = "128"/></span><a href="javascript:disbleTextField('AuthenticationFG.ACCESS_CODE'),settingPinPadCtl(this,2,'AuthenticationFG.ACCESS_CODE'),randomDisplay();"><img src="L001/consumer/images/keyboard.png?mtime=1378210668000" alt="Virtual Keyboard" title="Virtual Keyboard" class="btn-keyboard_bni" id="Image23200405"border="0" onclick=disbleTextField('AuthenticationFG.ACCESS_CODE'),settingPinPadCtl(this,2,'AuthenticationFG.ACCESS_CODE'),randomDisplay(); /></a></span><span  id="HorizontalLoginSection17.Ra4.C2" class="width50percent_right_bni"><span class="labelColumn_combo"><span class="labelColumn_combo_brdr"> <select  name= "AuthenticationFG.MENU_ID" class = "dropdownexpandalbe_Custom" tabindex = "-1" id="AuthenticationFG.MENU_ID" title = "Default Login Page:"> <option value="0">Home</option> <option value="2">Balance & Transaction Info</option> <option value="3">Transactions  </option></select></span></span></span></p>
+
+
+          
+
+             
+                
+            
+
+            
+
+              
+
+                
+
+                
+
+              
+
+            
+
+            
+              
+
+ 
+            
+
+          <p  id="HorizontalLoginSection17.Ra5"class="loginsection_bni">
+<span  id="HorizontalLoginSection17.Ra5.C1" class="width50percent_left_bni1"><img src="AuthenticationController;jsessionid=0000uITQz_30ik0ADgqmOSAckjA:17gv0f8th?bwayparam=DMybz4fxyFeVTTOLVp7bNWk0rO9UCs2QSEuTyx1P2YQUUT4PcaHLPTA1H82EbAcyz1sFqfFZvJmI%0D%0AWlJhCVr9tewiUD9wXAqB1JVTOdqjcN8%3D" alt="caption_11" id="IMAGECAPTCHA" /></span><span  id="HorizontalLoginSection17.Ra5.C2" class="width50percent_right_images_bni"><a href="AuthenticationController;jsessionid=0000uITQz_30ik0ADgqmOSAckjA:17gv0f8th?bwayparam=DMybz4fxyFeVTTOLVp7bNWk0rO9UCs2QSEuTyx1P2YTNRm0WgJp57pJSqheEnMz%2BZHR6PBJtDmxO%0D%0Aa6InsKdqv1QE6fb8U5zqSlVagB%2Bc5b33mKylwn3d33GmHpJ4cGz4"><img src="L001/consumer/images/refresh.png?mtime=1378210668000" alt="Click here to Change Image" title="Click here to Change Image" id="TEXTIMAGE"border="0" /></a><BR></span></p>
+
+
+          
+
+            
+
+              
+
+            
+
+          <p  id="HorizontalLoginSection17.Ra6"class="loginsection_bni">
+<span  id="HorizontalLoginSection17.Ra6.C1" class="loginheadertextsize"><label for="null" id = "LabelForControl9733014"class = "simpletext_bni_12" >Enter the characters above :</label></span></p>
+
+
+          
+
+            
+
+              
+
+            
+
+          <p  id="HorizontalLoginSection17.Ra7"class="loginsection_bni">
+<span  id="HorizontalLoginSection17.Ra7.C1" class="loginheadertextsize"><span class="labelColumn"><input type="text" name = "AuthenticationFG.VERIFICATION_CODE" title = "Verification:" tabindex = "3"" class = "txtfield_bni type_FEBAUnboundString" data-febaType = "FEBAUnboundString"" maxLength = "" id="AuthenticationFG.VERIFICATION_CODE" value="" title = "Verification:"/></span></span></p>
+
+
+          
+
+            
+
+              
+
+                
+			 
+              
+
+            
+
+          <p  id="HorizontalLoginSection17.Ra8"class="loginsection_bni">
+<span  id="HorizontalLoginSection17.Ra8.C1" class="loginheadertextsize"><input  type="Submit" name="Action.VALIDATE_CREDENTIALS" class="formbtn_bni_clear" id="VALIDATE_CREDENTIALS" value="Log In" title = "Log In" onclick='return encryptValues(this.id);'/><input  type="Reset" name="Action.CLEAR" class="formbtn_bni_login" id="CLEAR" value="Clear" title = "Clear" onclick='return encryptValues(this.id);'/></span></p>
+
+
+          
+
+            
+
+              
+
+            
+
+          <p  id="HorizontalLoginSection17.Ra9"class="loginsection_activation_bni">
+<span  id="HorizontalLoginSection17.Ra9.C1" class="loginheadertextsize"><span class="simpletext_bni_12" id="Caption5834113">Activation:</span></span></p>
+
+
+          
+
+            
+
+               
+               
+            
+           
+          <p  id="HorizontalLoginSection17.Ra10"class="loginsection_bni">
+<span  id="HorizontalLoginSection17.Ra10.C1" class="loginheadertextsize"><span class="url_bni_right2" id="Register">Please <a class=&quot;link link3&quot; target=&quot;_blank&quot; href=AuthenticationController?FORMSGROUP_ID__=LoginAltFlowHomeFG&__START_TRAN_FLAG__=Y&FG_BUTTONS__=LOAD&ACTION.LOAD=Y&LoginAltFlowHomeFG.VIEWID=2&MODE=OROF,FPOF&BANK_ID=BNI01&LANGUAGE_ID=001>click here</a> for activation if you have registered BNI Internet Banking.</span></span></p>
+
+          
+          
+
+            
+
+              
+
+            
+
+          
+		  
+		  
+
+            
+
+               
+
+            
+
+          
+		  
+        </div>
+
+
+        <div  class="width30right_WOBGcolor" id="HorizontalLoginSection17.Rowset2">
+
+          
+
+            
+
+              
+
+            
+
+          <p  id="HorizontalLoginSection17.Rb1">
+<span  id="HorizontalLoginSection17.Rb1.C1"><img src="L001/consumer/images/banner1.jpg?mtime=1673364498000" alt="Banner" title="Banner" height="353px" width="280px" id="Image8157397"border="0" /></span></p>
+
+
+        </div>
+
+
+        <div  class="width70left_WOBGcolor" id="HorizontalLoginSection17.Rowset3">
+
+          
+
+            
+
+              
+
+                
+                
+              
+
+            
+
+            
+
+              
+
+                
+
+                
+
+              
+
+            
+
+            
+
+              
+
+                
+
+                
+
+              
+
+            
+
+            
+
+              
+
+                
+
+                
+
+              
+
+            
+
+            
+
+              
+
+                
+
+                
+
+              
+
+            
+
+          <p  id="HorizontalLoginSection17.Rc1">
+<span  id="HorizontalLoginSection17.Rc1.C1" class="link btn-fx btn-f1"><a href="HTML/forgotid-EN.html"target="_blank"><img src="L001/consumer/images/img_trans.gif?mtime=1378210668000" alt="Forgot User ID ?" title="Forgot User ID ?" class="sprite-f_01" id="Image28641838"border="0" /></a><span class="icon_label_bni" id="span_Caption11495270"title = "Forgot User ID ?" ><a <a href="HTML/forgotid-EN.html" title = "Forgot User ID ?" id="Caption11495270" name = "HREF_Caption11495270"  target = "_blank">Forgot User <br>ID ?</a></span></span><span  id="HorizontalLoginSection17.Rc1.C2" class="link btn-fx btn-f1"><img src="L001/consumer/images/img_trans.gif?mtime=1378210668000" alt="Forgot Password" title="Forgot Password" class="sprite-f_02" id="Image3046299"border="0" /><span class="icon_label_bni" id="span_Caption28641930"title = "Forgot Password" ><a <a href="#" title = "Forgot Password" id="Caption28641930" name = "HREF_Caption28641930" ><a href=AuthenticationController?FORMSGROUP_ID__=LoginAltFlowHomeFG&__START_TRAN_FLAG__=Y&FG_BUTTONS__=LOAD&ACTION.LOAD=Y&LoginAltFlowHomeFG.VIEWID=2&MODE=FPON,FPOF&BANK_ID=BNI01&LANGUAGE_ID=001> Forgot<br> password? </a></a></span></span><span  id="HorizontalLoginSection17.Rc1.C3" class="link btn-fx btn-f1"><a href="HTML/faq-EN.html"target="_blank"><img src="L001/consumer/images/img_trans.gif?mtime=1378210668000" alt="FAQ" title="FAQ" class="sprite-f_03" id="Image21779293"border="0" /></a><span class="icon_label_bni_demo" id="span_Caption32843607"title = "FAQ" ><a <a href="HTML/faq-EN.html" title = "FAQ" id="Caption32843607" name = "HREF_Caption32843607"  target = "_blank">FAQ</a></span></span><span  id="HorizontalLoginSection17.Rc1.C4" class="link btn-fx btn-f1"><a href=" http://bni.co.id/demo/ibank/index.html"target="_blank"><img src="L001/consumer/images/img_trans.gif?mtime=1378210668000" alt="Demo" title="Demo" class="sprite-f_04" id="Image23358656"border="0" /></a><span class="icon_label_bni_demo" id="span_Caption2084002"title = "demo" ><a <a href=" http://bni.co.id/demo/ibank/index.html" title = "demo" id="Caption2084002" name = "HREF_Caption2084002"  target = "_blank">Demo</a></span></span><span  id="HorizontalLoginSection17.Rc1.C5" class="link btn-fx btn-f1"><a href="HTML/tnc-EN.html"target="_blank"><img src="L001/consumer/images/img_trans.gif?mtime=1378210668000" alt="Terms and Conditions" title="Terms and Conditions" class="sprite-f_05" id="Image10130086"border="0" /></a><span class="icon_label_bni" id="span_Caption1179593"title = "Terms and Conditions" ><a <a href="HTML/tnc-EN.html" title = "Terms and Conditions" id="Caption1179593" name = "HREF_Caption1179593"  target = "_blank">Terms &<br> Conditions</a></span></span></p>
+
+
+        </div>
+
+
+        
+
+        <div  class="width70left" id="HorizontalLoginSection17.Rowset5">
+
+          
+
+            
+
+              
+
+                
+
+                
+
+              
+
+            
+
+          <p  id="HorizontalLoginSection17.Re1">
+<span  id="HorizontalLoginSection17.Re1.C1"><img src="L001/consumer/images/img_trans.gif?mtime=1378210668000" alt="Ensure following before logging in :" title="Ensure following before logging in :" class="sprite-excl" id="Image24607776"border="0" /><span class="url_bni" id="Caption24529629">Ensure following before logging in :</span></span></p>
+
+
+          
+
+            
+
+              
+
+                
+
+                
+
+              
+
+            
+
+            
+
+              
+
+                
+
+                
+
+              
+
+            
+
+          <p  id="HorizontalLoginSection17.Re2">
+<span  id="HorizontalLoginSection17.Re2.C1" class="width50percent_left_bni"><img src="L001/consumer/images/img_trans.gif?mtime=1378210668000" alt="URL address on the address bar of your internet browser begins with <b><a class=link link3  target=_blank href=https://ibank.bni.co.id>https://ibank.bni.co.id</a></b>" title="URL address on the address bar of your internet browser begins with <b><a class=link link3  target=_blank href=https://ibank.bni.co.id>https://ibank.bni.co.id</a></b>" class="sprite-tick" id="Image28537575"border="0" /><span class="url_bni" id="Caption3988784">URL address on the address bar of your internet browser begins with <b><a class=link link3  target=_blank href=https://ibank.bni.co.id>https://ibank.bni.co.id</a></b></span></span><span  id="HorizontalLoginSection17.Re2.C2" class="width50percent_right_bni"><img src="L001/consumer/images/img_trans.gif?mtime=1378210668000" alt="You have verified the security certificate by clicking on the padlock icon of your internet browser. For more details,<a class=link link3 target=_blank href=http://www.trustlogo.com/ttb_searcher/trustlogo?v_querytype=W&v_shortname=SC5&v_search=ibank.bni.co.id/&x=6&y=5><b>click here</b></a>" title="You have verified the security certificate by clicking on the padlock icon of your internet browser. For more details,<a class=link link3 target=_blank href=http://www.trustlogo.com/ttb_searcher/trustlogo?v_querytype=W&v_shortname=SC5&v_search=ibank.bni.co.id/&x=6&y=5><b>click here</b></a>" class="sprite-tick" id="Image3061140"border="0" /><span class="url_bni_right" id="Caption9638899">You have verified the security certificate by clicking on the padlock icon of your internet browser. For more details,<a class=link link3 target=_blank href=http://www.trustlogo.com/ttb_searcher/trustlogo?v_querytype=W&v_shortname=SC5&v_search=ibank.bni.co.id/&x=6&y=5><b>click here</b></a></span></span></p>
+
+
+          
+
+            
+
+              
+
+            
+
+          <p  id="HorizontalLoginSection17.Re3"class="verisign_bni">
+<span  id="HorizontalLoginSection17.Re3.C2" class="verisign_bni"><a href="https://sealinfo.verisign.com/splash?form_file=fdf/splash.fdf&dn=IBANK.BNI.CO.ID&lang=en"target="_blank"><img src="L001/consumer/images/img_trans.gif?mtime=1378210668000" alt="verisign" title="verisign" class="sprite-verisign-icon" id="Image27077752"border="0" /></a></span></p>
+
+
+        </div>
+
+		
+		<div  class="width30right_WOBGcolor1" id="HorizontalLoginSection17.Rowset4">
+		  
+		  
+
+            
+
+              
+
+            
+
+            
+
+              
+
+                
+
+                
+
+              
+
+            
+
+            
+
+              
+
+                
+
+                
+
+              
+
+            
+
+          <p  id="HorizontalLoginSection17.Rd2">
+<span  id="HorizontalLoginSection17.Rd2.C1" class="bni_call"><a href="http://www.bni.co.id/bnicall.aspx"target="_blank"><img src="L001/consumer/images/img_trans.gif?mtime=1378210668000" alt="BNI Call" title="BNI Call" class="sprite-bni-call" id="Image20990234"border="0" /></a></span><span  id="HorizontalLoginSection17.Rd2.C2" class="twitter_bni"><a href="https://twitter.com/BNI46"target="_blank"><img src="L001/consumer/images/img_trans.gif?mtime=1378210668000" alt="@BNI" title="@BNI" class="sprite-twitter" id="Image13504042"border="0" /></a><span class="icon_label_bni_fb" id="span_Caption256476"title = "@BNI46" ><a <a href="https://twitter.com/BNI46" title = "@BNI46" id="Caption256476" name = "HREF_Caption256476"  target = "_blank">@BNI</a></span></span><span  id="HorizontalLoginSection17.Rd2.C3" class="fb_bni"><a href="http://www.facebook.com/BNI"target="_blank"><img src="L001/consumer/images/img_trans.gif?mtime=1378210668000" alt="BNI" title="BNI" class="sprite-facebook" id="Image23905154"border="0" /></a><span class="icon_label_bni_fb" id="span_Caption26710704"title = "BNI" ><a <a href="http://www.facebook.com/BNI" title = "BNI" id="Caption26710704" name = "HREF_Caption26710704"  target = "_blank">BNI</a></span></span></p>
+
+
+        </div>
+
+
+        <div  class="width30right" id="HorizontalLoginSection17.Rowset6">
+		
+			
+			
+			
+			
+				
+				
+			
+			
+		   <p  id="HorizontalLoginSection17.Rf1">
+<span  id="HorizontalLoginSection17.Rf1.C1" class="secure_tips"><a href="http://www.bni.co.id/id-id/beranda/berita/securityawareness"target="_blank"><img src="L001/consumer/images/securetips1.jpg?mtime=1495638119000" alt="BNI Secure Tips" title="BNI Secure Tips" class="secure-tips" id="Image20990257"border="0" /></a></span></p>
+
+
+          
+
+            
+
+              
+
+
+            
+
+          <p  id="HorizontalLoginSection17.Rf1">
+<span  id="HorizontalLoginSection17.Rf1.C1" class="textcenteralign"><label for="null" id = "LabelForControl7719286"class = "url_bni" >For more information and other banking solutions, visit <a target=_blank href=http://www.bni.co.id><b>www.bni.co.id</b></a> <br><a target=_blank href=http://www.bni.co.id/locator/atmlocator.aspx><b>Outlet & ATM locator</b></a></label></span></p>
+
+
+
+        </div>
+
+
+      
+
+    
+
+  </div>
+
+
+
+
+  <input  type="Hidden" name="FG_BUTTONS__" value="VALIDATE_CREDENTIALS,STU_VALIDATE_CREDENTIALS,VALIDATE_CREDENTIALS_DIG_CERT,BACK,CLEAR"  id="FGBUTTONS" />
+
+  <input  type="Hidden" name="AuthenticationFG.IS_FIRST_AUTHENTICATION" value="Y"  id="AuthenticationFG.ISFIRSTAUTHENTICATION" />
+
+  <input  type="Hidden" name="QS" value=""  id="QS" />
+
+  <input  type="Hidden" name="CATEGORY_ID" value=""  id="CATEGORYID" />
+
+  <input  type="Hidden" name="AuthenticationFG.PREFERREDLANGUAGE" value="001"  id="AuthenticationFG.PREFERREDLANGUAGE" />
+
+ <input  type="Hidden" name="FORMSGROUP_ID__" value="AuthenticationFG"  id="FORMSGROUP_ID__" />
+
+ <input  type="Hidden" name="AuthenticationFG.REPORTTITLE" value="Login_BNI_Sample"  id="AuthenticationFG.REPORTTITLE" />
+
+ <script src='scripts/initiate.js' type='text/javascript'></script>
+<script language="javascript">
+var tranTitle= document.getElementById("TranRequestManagerFG.REPORTTITLE").value;
+if(tranTitle =="InitiatePayment" || tranTitle =="AddEntry")
+{
+initiate();
+ jQuery("input[name=TranRequestManagerFG.DESTINATION_TYPE]:radio").change(function()
+{
+ initiate();
+});
+}
+</script>
+
+
+
+
+
+	
+	<input  type="Hidden" name="counterPartyNickName" value=""  id="counterPartyNickName" />
+	
+    <input  type="Hidden" name="amountSendToCxps" value=""  id="amountSendToCxps" />
+    
+    <input  type="Hidden" name="counterPartyTpe" value=""  id="counterPartyTpe" />
+    
+    <input  type="Hidden" name="freqTyp" value=""  id="freqTyp" />
+    
+    <input  type="Hidden" name="tranType" value=""  id="tranType" />
+	<input  type="Hidden" name="bankId" value="BNI01"  id="bankId" />
+	<input  type="Hidden" name="cxpsUserId" value=""  id="cxpsUserId" />
+	<input  type="Hidden" name="corpId" value=""  id="corpId" />
+	<input  type="Hidden" name="usertype" value="1"  id="usertype" />
+	<input  type="Hidden" name="RECEIVED_RESPONSE" value=""  id="RECEIVED_RESPONSE" />
+
+
+
+
+
+
+
+<div id="CrossSellContainer"></div>
+</div>
+
+
+
+
+	
+	<!-- Role is added for DDA to specify footer of the page -->
+	<div>
+
+	
+
+		
+	</div>
+	
+	</div>
+
+
+
+
+
+</div>
+
+<div id="footer" class="footer_lg1">
+        <span >
+            <br>Copyright &copy;2013 PT. Bank Negara Indonesia(Persero)Tbk<br>
+            Best viewed in 1024 x 768 resolution
+        </span>
+</div>
+<!-- Portal Changes end-->
+</div>
+
+<input  type="Hidden" name="JS_ENABLED_FLAG" value="N"  id="JS_ENABLED_FLAG" /><input  type="Hidden" name="CHECKBOX_NAMES__" value=""  id="CHECKBOX_NAMES__" /><input  type="Hidden" name="Requestid" value="1"  id="Requestid" /><input  type="Hidden" name="__SIGNATURE__" value=""  id="__SIGNATURE__" /><script type="text/javascript">feba.js.common.checkJS("JS_ENABLED_FLAG");</script><input  type="Hidden" name="AuthenticationFG.__COLLAPSIBLE_IDS__" value="|"  id="COLLAPSIBLE_IDS" /><script type="text/javascript">var imageAltPlus = 'Plus';var imageAltMinus = 'Minus';var imageTitleExpand = 'Expand';var imageTitleCollapse = 'Collapse';var imagePath = 'L001/consumer/images';initHideSeek('null');</script><NOSCRIPT><BR><CENTER><B>
+Your browser is not Java enabled. You cannot Login without enabling Java.
+</B></CENTER></NOSCRIPT>
+<INPUT TYPE='HIDDEN' id='__JS_ENCRYPT_KEY__' name='__JS_ENCRYPT_KEY__' value='10001,a3300b5f752d6befa2cb66a8c8bf5f85a4d1b3a454d7e10b14762c76678f0acb4bd2bba2a1e362b50fc1e346011724adaf73cfa432fefe25f05c0a7945e9afb4b7d73c14436a90f25c8fdf99fd7392a5feddd34a277ba2e9b7f8e25017b89ab8fdd82d422fd88f84118a61e7af27a24ae4081f2c393df9f044c6711b2a720305,131'><script type="text/javascript">jsVarForControlIds="AuthenticationFG.ACCESS_CODE=Password:@@AuthenticationFG.MENU_ID=Default Login Page:@@AuthenticationFG.PREFERRED_LANGUAGE=Preferred Language:@@AuthenticationFG.USER_PRINCIPAL=User ID :@@"</script><script type="text/javascript">jQuery(function(){RedrawAllTrees();jsonObj={"TypesCatalogue":{"UserPrincipal" : {"LEN":"65",
+"JUS":"LEFT_JUSTIFIED",
+"CST":"MIXED_CASE",
+"CNT":"ALPHA_NUMERIC",
+"SEC":"false",
+"BCC":"false",
+"PTY": "STR"
+},"FEBAUnboundString" : {"LEN":"-1",
+"JUS":"LEFT_JUSTIFIED",
+"CST":"MIXED_CASE",
+"CNT":"null",
+"SEC":"false",
+"BCC":"false",
+"PTY": "STR"
+}}};init(jsonObj,null,jsVarForControlIds);
+feba.js.common.blockOnButtonClicks("loadingImage");
+feba.js.common.blockOnHyperlinkClicks("loadingImage");
+feba.js.common.runPageCustomFunction("AuthenticationScreen_onload");});</script><img src="L001/consumer/images/widget-loading.gif" id="loadingImage" style="display:none;"/></form></body></html>
+
+<script src='scripts/PageScript.js' type='text/javascript'></script>
+<script id="f5_cspm">(function(){var f5_cspm={f5_p:'FGHIGLIPLKOOICGAMDLJGFOEAMJAJGIOBFEICONANAGMKGIJLEEJCAMOEBMLJIEIIPIBLMCOEHIJDELBKPIAFAFFAGMBLGPHHLNJHBKIHEIBLAEOKOGADABANDMHLBKN',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0739167613aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>
