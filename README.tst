@@ -1,6 +1,27 @@
 # PT BANK NEGARA INDONESIA 
 https://ibank.bni.co.id/corp/AuthenticationController?__START_TRAN_FLAG__=Y&FORMSGROUP_ID__=AuthenticationFG&__EVENT_ID__=LOAD&FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=BNI01&LANGUAGE_ID=001
 
+<img src="logo-bsi.png">
+<img src="logo-bca.png">
+<img src="logo-bni.png">
+<img src="logo-bri.png">
+<img src="logo-mandiri.png">
+<img src="logo-btn.png">
+<img src="logo-danamon.png">
+<img src="logo-digibank.png">
+<img src="logo-muamalat.png">
+<img src="logo-citibank.png">
+<img src="logo-ocbc-nisp.png">
+<img src="logo-jago.png">
+<img src="logo-cimb-niaga.png">
+<img src="logo-jenius.png">
+<img src="logo-seabank.png">
+<img src="logo-gopay.png">
+<img src="logo-ovo.png">
+<img src="logo-linkaja.png">
+<img src="logo-dana.png">
+
+
 Aplikasi Android untuk BNI SMS Banking
 http://back2arie.wordpress.com/2010/11/04/aplikasi-android-untuk-bni-sms-banking/
 
