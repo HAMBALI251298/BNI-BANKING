@@ -27,6 +27,35 @@ http://back2arie.wordpress.com/2010/11/04/aplikasi-android-untuk-bni-sms-banking
 
 Aplikasi ini digunakan untuk melakukan transaksi dengan BNI SMS Banking pada handheld berbasis sistem operasi Android.
 
+This tables shows which payment channels that has been implemented by this proxy.
+
+:white_check_mark: : ready
+
+:heavy_exclamation_mark: : in progress
+
+:x: : not yet supported natively by payment gateway
+
+
+| Channels (HAMBALI)              | Mantra (Snap)                       | Xendit (ewallet/XenInvoice) |
+| ------------------------------- | ----------------------------------- | --------------------------- |
+| JENIUS VA <img src="logo-jenius.png"> | :white_check_mark:                  | :white_check_mark:          |
+| JAGO VA <img src="logo-jago.png">   | :white_check_mark:                  | :x:                         |
+| BCA VA    <img src="logo-bca.png">                      | :white_check_mark:                  | :white_check_mark:          |
+| Mandiri VA    <img src="logo-mandiri.png">                  | :white_check_mark:                  | :white_check_mark:          |
+| BNI VA     <img src="logo-bni.png">                     | :white_check_mark:                  | :white_check_mark:          |
+| bsi VA   <img src="logo-bsi.png">                   | :white_check_mark:                  | :white_check_mark:          |
+| Other VA                        | :white_check_mark:                  | :x:                         |
+| BRI VA     <img src="logo-bri.png">                     | :heavy_exclamation_mark:            | :white_check_mark:          |
+| MUAMALAT VA <img src="logo-muamalat.png">    | :white_check_mark:                  | :white_check_mark:          |
+| SEABANK VA <img src="logo-seabank.png">                       | :white_check_mark:                  | :white_check_mark:          |
+| Gopay  VA   <img src="logo-gopay.png">                      | :white_check_mark:                  | :x:                         |
+| OVO VA       <img src="logo-ovo.png">                     | :x:                                 | :white_check_mark:          |
+| DANA  VA    <img src="logo-dana.png">                      | :x:                                 | :white_check_mark:          |
+| LINKAJA VA  <img src="logo-linkaja.png">                     | :x:                                 | :white_check_mark:          |
+| DANAMON VA   <img src="logo-danamon.png">                   | :white_check_mark:                  | :white_check_mark:          |
+| CIMB NIAGA VA <img src="logo-cimb-niaga.png">                        | :white_check_mark:                  | :x:                         |
+| BTN VA <img src="logo-btn.png">                     | :x:                                 | :heavy_exclamation_mark:    |
+| OCBC NISP VA <img src="logo-ocbc-nisp.png">
 
 Aplikasi ini membantu Anda dalam melakukan transaksi tanpa harus menghapal sintaks SMS, transaksi ditampilkan dalam menu interaktif layaknya Anda menggunakan mesin ATM. Transaksi yang didukung antara lain cek saldo, transfer, cek tagihan, pembayaran, dan isi ulang pulsa (topup).
 
