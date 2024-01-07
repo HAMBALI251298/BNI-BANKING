@@ -75,10 +75,3 @@ Penting: Setelah Anda men-download installer tersebut, hitung MD5nya, jika bukan
 
 Penyimpanan password
 Demi keamanan, password SMS BNI Anda tidak akan disimpan dalam aplikasi ini, karena akan sangat berbahaya jika ada orang yang bisa mengakses ke handphone Anda. Jadi, password hanya akan disimpan sementara, sampai Anda selesai menggunakan aplikasi ini.
-
-📱Contact Me And SosialMedia
-• Linkedlin : (HAMBALI)
-• Facebook  : (Hambali)
-• Instagram : (hambali6737)
-• telegram  : (@hambali251298)
-• Telpon    : (+6283128356342)
